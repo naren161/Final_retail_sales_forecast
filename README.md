@@ -33,3 +33,11 @@ This project involves:
 **week**: Week number of the year for the observation.
 
 Each column represents a different aspect of the sales data, with some columns providing temporal context, others indicating store and department characteristics, and additional columns related to external factors like holidays, pricing, and economic indicators.
+
+Here in this project we are predicting weekly sales with regression Machine learning  model ,  The Random Forest Regressor exhibits high R² scores and low error metrics for both training and test data, suggesting that it performs well and generalizes effectively to unseen data.
+
+**Generalization**: It shows less evidence of overfitting compared to the Decision Tree, which has a perfect R² score on training data but also high performance on testing data. The Random Forest’s performance on both datasets is very close, indicating robust generalization.
+
+**Error Metrics**: Compared to other models, the Random Forest has the lowest testing error metrics (MSE, RMSE, MAE), indicating fewer prediction errors on unseen data.
+In summary, the Random Forest Regressor provides a good balance between accuracy and generalization, making it the best choice among the models listed.
+
