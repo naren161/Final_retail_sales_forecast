@@ -3,6 +3,7 @@
 This project involves:
 
 **Store**: Identifier for the store where the sales occurred.
+
 **Dept**: Identifier for the department within the store.
 **Weekly_Sales**: Total sales for the week (target variable).
 **IsHoliday**: Indicator of whether the week is during a holiday season (binary).
